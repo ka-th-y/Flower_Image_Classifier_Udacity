@@ -8,9 +8,9 @@
 This code will allow you to train a selfbuild neuronal network on top of a pretrained model from torchvision.models and can predict the flower class of any flower image input.
 The project contains 2 subprojects:
 
-_(1)_ Flower_Image_Classifier for terminal use
+**_(1)_** Flower_Image_Classifier for terminal use
 
-_(2)_ Flower_Image_Classifier for Jupiter notebook 
+**_(2)_** Flower_Image_Classifier for Jupiter notebook 
 
 
 
@@ -25,7 +25,7 @@ To run the terminal code _(1)_, you will need:
 
 **Pytorch**
 
-**optional:** Use a gpu to accelerate the model training and image prediction process
+**Optional:** Use a gpu to accelerate the model training and image prediction process
 
 
 If you want to execute the Jupiter notebook code _(2)_:
