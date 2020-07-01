@@ -80,7 +80,8 @@ Trains the complete model without additional input. For individual settings choo
 **Prediction part of the project:**
 
 Requires: `predict.py` and `functions_predict.py` \
-Predicts the flower class with the additional input of the image-filepath in the command line. For individual settings choose options.
+Predicts the flower class with the additional input of the image-filepath in the command line. For individual settings choose options. <br/>
+The prediction part is also accessible without training a network before, if you are using the pretrained parameters, which the prediction script automatically loads from the uploaded checkpoint.pth and the saved_model.txt files.
 
 ```
   python ./predict.py --help
