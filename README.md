@@ -5,42 +5,43 @@
 
 
 ### Project description
-This code will allow you to train a selfbuild neuronal network on top of a pretrained model from torchvision.models and can predict the flower class of any flower image input.
-The project contains 2 subprojects:
+This code will allow you to train a selfbuild neuronal network on top of a pretrained model from torchvision.models and can predict the flower class of any flower image input. The project contains 2 subprojects:
 
-**_(1)_** Flower_Image_Classifier for terminal use
+**(1)** Flower_Image_Classifier for terminal use 
 
-**_(2)_** Flower_Image_Classifier for Jupiter notebook 
+**(2)** Flower_Image_Classifier for Jupiter notebook 
 
-
+<br/>
 
 ### Installation
-To run the terminal code _(1)_, you will need:
+To run the terminal code (1), you will need:
 
-**Python 3.x** 
+|**Python 3.x**|
+|--------------|
+|**Numpy**|
+|**Matplotlib**|
+|**Pytorch**|
+|**Seaborn**|
 
-**Numpy**
+**Optional:** Use a gpu to accelerate the model training and image prediction process <br/>
+<br/>
 
-**Matplotlib**
-
-**Pytorch**
-
-**Optional:** Use a gpu to accelerate the model training and image prediction process
-
-
-If you want to execute the Jupiter notebook code _(2)_:
+If you want to execute the Jupiter notebook code (2):
 
 **Jupiter notebook** + mentioned packages above
 
+<br/>
 
 
 ### Usage
 
-The command line project _(1)_ consists of **2 parts**: `train.py` and `predict.py`
+The command line project (1) consists of **2 parts**: `train.py` and `predict.py`
+
+<br/>
 
 **Training part of the project:**
 
-Requires: `train.py` and `functions_train.py`
+Requires: `train.py` and `functions_train.py`\
 Trains the complete model without additional input. For individual settings choose options.
 
   ```
@@ -74,11 +75,11 @@ Trains the complete model without additional input. For individual settings choo
 ```
   
 
-
+<br/>
 
 **Prediction part of the project:**
 
-Requires: `predict.py` and `functions_predict.py`
+Requires: `predict.py` and `functions_predict.py` \
 Predicts the flower class with the additional input of the image-filepath in the command line. For individual settings choose options.
 
 ```
